@@ -26,7 +26,8 @@ html{
 body{
    border-left-style: solid;
    border-left-width: 3px;
-   border-left-color: rgb() 
+   border-left-color: rgb(169,130,88);
+   box-shadow: 15px 
 }
 
 
