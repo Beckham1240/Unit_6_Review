@@ -62,10 +62,24 @@ figure>img{
    -webkit-filter: sepia(80%);
    
 }
-
+figcaption{
+   font-family: 'Palatino Linotype', Palatino, 'Times New Roman', serif;
+   font-style: italic;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 0px;
+   padding-right: 0px;
+   text-align: center;
+}
 /* Article Styles */
 
+article{
+   background: url(tb_back6.png) bottom right / 15% no-repeat content-box;
+   border-right: 8px double rgb(147,116,68);
+   border-bottom: 8px double rgb(147,116,68);
+   border-bottom-right-radius: 80px;
+   box-shadow: inset rgba(184,154,112,0.7) -10px -10px 25px;
 
-
+}
 /* Footer Styles */
 
