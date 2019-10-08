@@ -22,7 +22,7 @@ html{
 
 
 /* Page Body Styles */
-
+/*Shows the borders better and adds box shadows on them*/
 body{
    border-left-style: solid;
    border-left-width: 3px;
@@ -33,7 +33,7 @@ body{
 
 
 /* Main Styles */
-
+/*Adds a background image and shadows on the inside of the body and adds shadows on the heading*/
 main{
    background-image: url(tb_back7.png);
    border-image-width: 100%;
@@ -46,6 +46,7 @@ main>header h1{
 }
 
 /* Figure Box Styles */
+/*organizes all figures, changes the font of the figcaption, adds the frame for the main pic*/
 figure{
    margin-top: 10px;
    margin-bottom: 10px;
@@ -56,10 +57,11 @@ figure{
 figure>img{
    border-width: 25px;
    border-style: solid;
-   border-image: url(tb_frame.png) 60px stretch;
+   border-image: url(tb_frame.png) 60 stretch;
    display: block;
    width:100%;
    -webkit-filter: sepia(80%);
+   filter: sepia(80%);
    
 }
 figcaption{
@@ -72,7 +74,7 @@ figcaption{
    text-align: center;
 }
 /* Article Styles */
-
+/*Adds a small pic of Kathleen and makes the border of the article curved with box shadows*/
 article{
    background: url(tb_back6.png) bottom right / 15% no-repeat content-box;
    border-right: 8px double rgb(147,116,68);
@@ -82,4 +84,7 @@ article{
 
 }
 /* Footer Styles */
-
+/*Makes the footer have the color transition thing*/
+footer{
+   background: linear-gradient(325deg,rgb(180,148,104) 20%, rgb(40,33,23) 60%) 
+}
